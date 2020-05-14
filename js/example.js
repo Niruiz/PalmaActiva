@@ -17,21 +17,48 @@
         ciudad:'Palma'
         CP:07013
     };
+Funciones dos tipos:
+funciones declarativas
+sintaxis
+funcion nombre de funcion(parametros){
+    lo que va dentro
+}
+
+funciones expresivas
+dentro de una variable que le da el bombre
+var nuevaFunction=Funtion(){
+}
+
+llamar a la funcion 
+nuevafuncion()
 
 
-    */
+Scope en que zona de la memoria estamos de
+
+hoiating existe en variables y funciones
+débil tipado
+    
+
+*/
+
+
+
+//nombro variable
+var niño ="niño"
+
 function saludar(){
     console.log('Buenos Días')
 }
 saludar();
 
 
-//  Ejemploejemplo de funcion con un parametro y concatenacion del parametro con el texto
+// concateno strings y variable
 
 function despedir(nombre){
-    console.log("Adios " + nombre);
+    console.log("Hasta luego " + nombre);
 }
-    despedir("Toni");
-    despedir("Juan");
+
     despedir("Pepe");
+    despedir(niño);
+
 
