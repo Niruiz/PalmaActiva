@@ -1,6 +1,7 @@
 function nombre() {
     var nombre = prompt("Escribe tu nombre");
     document.getElementById("nombre").innerHTML = nombre;
+    console.log(nombre);
 }
 
 function coche() {
@@ -14,7 +15,11 @@ function coche() {
         cont += modelos[i] + " ";
     }
     document.getElementById("modelos").innerHTML = cont;
+
+    
+    console.log(modelos);
 }
 
 nombre();
 coche();
+
