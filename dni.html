@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <label for="Dni">Introduzca dni</label>
+  <input id="Dni" type="text" name="dni">
+  <input id="letra" type="text" name="letra">
+  <input onclick="averigua()" type="button" name="" value="Resultado">
+
+  <script type="text/javascript">
+function averigua () 
+{ 
+var dni,cadena,letra,Resultado;
+cadena="TRWAGMYFPDXBNJZSQVHLCKET";  
+dni=document.getElementById("Dni").value;
+letra=dni%23;
+Resultado = cadena.charAt(letra);
+document.getElementById("letra").value=Resultado;
+} 
+</script>
+ 
+</body>
+</html>
